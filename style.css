@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+height:100vh;
+background-color:black;
+font-family: 'Montserrat', sans-serif;
+}
+header nav{
+    display:flex;
+    justify-content:space-between;
+    height:13vh;
+    border:2px solid black;
+   
+   align-items: center;
+   padding:0 1.2rem;
+   position:fixed;
+   width:100%;
+   top:0;
+   left:0;
+   background: #FCAF02;
+
+}
+header nav span{
+    font-size:1.4rem;
+    font-weight:700;
+  
+}
+header nav ul{
+    display:flex;
+    
+}
+nav ul li{
+    margin:0 0.6rem;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+  color:black;
+  font-weight:400;
+}
+
+
+
+.intro-section{
+    
+    display:flex;
+    padding:1.6rem;
+    margin:2rem;
+    margin-top:4rem;
+}
+#content{
+ font-size:1rem; 
+ 
+}
+#content>h1{
+color:white;
+font-size:2rem;
+}
+#content>p{
+    margin:1rem 0;
+    color:#FFFFFF;
+    line-height: 22px;
+}
+#content .login{
+    padding: 0.4rem 4rem;
+    border-radius: 21px;
+    background-color:#FCAF02;
+    color:black;
+    font-size:large;
+    font-weight:700;
+    border: none;
+    cursor: pointer;
+    /* margin:1rem 0; */
+}
+#image{
+    /* width: 105rem; */
+    width: 162rem;
+    height: 16rem;
+}
+#image img{
+    width:100%;
+    height:100%;
+}
+
+
+
+.contact-section{
+/* border:1px solid black; */
+  display:flex;
+  flex-direction: column;
+  padding:2rem;
+  margin: 2rem;
+  margin-bottom:0;
+}
+.contact-section>h1{
+    color:#FCAF02;
+}
+.contact-section form{
+    display: flex;
+    flex-direction: column;
+}
+#firstInput{
+    /* border:1px solid black; */
+    width:100%;
+    margin:1rem 0;
+    display:flex;
+    flex-direction: column;
+}
+#secondInput{
+    /* border:1px solid black; */
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom:1.5rem;
+}
+#firstInput>input{
+   margin:1rem 0;
+}
+#secondInput>input{
+    width:47%;
+   
+}
+input{
+    border-radius:20px;
+    outline:none;
+    padding:0.3rem 1rem;
+    height:8vh;
+    border-color: #FCAF02;
+    background-color:black;
+    color:#FCAF02;
+}
+::placeholder{
+    color:#FCAF02;
+}
+.contact-section form>button{
+    padding: 0.4rem 1.3rem;
+border-radius: 23px;
+text-align: center;
+background-color: #FCAF02;
+border: none;
+font-size: 1rem;
+font-weight:700;
+width:fit-content;
+margin:auto;
+cursor:pointer;
+}
+
+
+.table-section{
+    border:2px solid black;
+    color: #FCAF02;
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 0;
+}
+table{
+    width:100%;
+    
+}
+table,th,td,tfoot{
+    border:2px solid #FCAF02;
+    border-collapse:collapse;
+    /* padding:0.3rem; */
+}
+table td{
+   /* border:none; */
+    border-top: none;
+    border-bottom: none;
+    padding:0.7rem 0;
+    padding-left:2rem;
+    text-align:left;
+}
+table th{
+    text-align:left;
+     padding:0.4rem 2rem;
+     font-weight:400;
+}
+thead #sno,tbody>tr:first-child{
+    width: 8%;
+    padding:0.4rem;
+    text-align:center;
+}
+table tfoot{
+    background-color: #FCAF02;
+    color:black;
+}
+table tfoot td{
+    border:2px solid black;
+}
